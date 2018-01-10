@@ -1,5 +1,5 @@
 ﻿<?php
-$title = "Выбери фильм || По рейтингу";
+$title = "Выбери фильм || По году";
 include "header.php";
 
 $pdo = new PDO('mysql:host=127.0.0.1;dbname=selectfilm45;charset=utf8', 'selectfilm45', 'bWuPs80o');
@@ -19,7 +19,7 @@ $datas = [];
     <a href = "main.php" class = "left">Все фильмы</a>
     <a href = "genre.php" class = "left">По жанрам</a>
     <a href = "time.php" class = "left">По длительности</a>
-    <a href = "rating.php" class = "left">По году</a>
+    <a href = "rating.php" class = "left">По рейтингу</a>
   </div> 
 <table class = "table3" border=0>  
   <tr >
